@@ -1,0 +1,10 @@
+.center {
+    display: table;
+    width: auto;
+    margin: auto;
+}
+
+#canvas {
+    border: solid 1px #ccc;
+    background: url("images/background.jpg");
+}
