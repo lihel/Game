@@ -40,12 +40,10 @@ function clearSplits() {
     let newSplits = splits.filter((split) => split.y < 400);
     splits = newSplits;
 }
-
-function clearBullets() {
+/*function clearBullets() {
     let newBullets = bullets.filter((bullet) => bullet.startY > 0);
     bullets = newBullets;
-}
-
+}*/
 function keyEvent(event) {
     if (event.keyCode === 37) {
         pressLeft = true;
